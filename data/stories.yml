@@ -34,7 +34,7 @@ stories:
 #     - intent: greet
 #     - action: utter_greet
 #     - intent: add_event
-#     - action: restaurant_form
-#     - active_loop: restaurant_form
+#     - action: event_form
+#     - active_loop: event_form
 #     - active_loop: null
 #     - action: utter_goodbye
