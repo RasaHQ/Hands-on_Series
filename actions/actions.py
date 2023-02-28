@@ -114,9 +114,9 @@ def add_event(event_name, time):
 
     
 
-   d = datetime.now().date()
-   tomorrow = datetime(d.year, d.month, d.day, 10)+timedelta(days=1)
-   start = tomorrow.isoformat()
+#    d = datetime.now().date()
+#    tomorrow = datetime(d.year, d.month, d.day, 10)+timedelta(days=1)
+#    start = tomorrow.isoformat()
    end = (time + timedelta(hours=1)).isoformat()
 
 
